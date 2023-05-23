@@ -1,16 +1,16 @@
 ---
-title: "📚 Project Title"
-date: 20 March 2023
-date-meta: 20 March 2023
+title: "📚 Neural Network and Chill"
+date: 30 May 2023
+date-meta: 23 May 2023
 ---
 
-# 🤖 Project Title
+# 🤖 Neural Network and Chill
 
 **Team members:** 
 
-- [Member 1]()
-- [Member 2]()
-- [Member 3]()
+- [Bosco Lee](https://github.com/Bosco0120)
+- [Rachel Lui](https://github.com/luihc)
+- [Syaiful Iylia](https://github.com/winterolller)
 
 ## 📝 Project Description
 
@@ -22,28 +22,4 @@ date-meta: 20 March 2023
 
 ## 🖋️ Conclusions
 
-## 📚 Reference---
-title: "📚 Project Title"
-date: 20 March 2023
-date-meta: 20 March 2023
----
-
-# 🤖 Project Title
-
-**Team members:** 
-
-- [Member 1]()
-- [Member 2]()
-- [Member 3]()
-
-## 📝 Project Description
-
-## 📊 Data
-
-## 📈 Analysis
-
-## 🖼️ Results
-
-## 🖋️ Conclusions
-
-## 📚 References
+## 📚 References---
