@@ -17,7 +17,7 @@ date-meta: 23 May 2023
 ## 📊 <a href="data.html">Data</a>
 
 
-## 📈 Analysis
+## 📈 <a href="analysis.html">Analysis</a>
 
 ## 🖼️ Results
 
