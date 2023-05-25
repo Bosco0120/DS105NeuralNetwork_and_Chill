@@ -1,45 +1,58 @@
-<!-- Markdown content above this line -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 100%;
+      background-color: #DB795F;
+    }
 
-<!-- Start of HTML -->
-<div class="sidebar">
-  <ul>
-    <li><a href="#section1">Section 1</a></li>
-    <li><a href="#section2">Section 2</a></li>
-    <li><a href="#section3">Section 3</a></li>
-  </ul>
-</div>
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
 
-<!-- Markdown content below this line -->
+    .sidebar li {
+      margin-bottom: 10px;
+    }
 
-<!-- Start of CSS -->
-<style>
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 100%;
-  background-color: #f1f1f1;
-}
+    .sidebar a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+    }
 
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
+    .sidebar a:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <!-- Start of HTML -->
+  <div class="sidebar">
+    <ul>
+      <li><a href="Webpages/data.html">Data</a></li>
+      <li><a href="Webpages/analysis.html">Analysis</a></li>
+      <li><a href="Webpages/results.html">Results</a></li>
+      <li><a href="Webpages/conclusion.html">Conclusion</a></li>
+      <li><a href="Webpages/reference.html">Reference & Appendix</a></li>
+    </ul>
+  </div>
+  <!-- End of HTML -->
 
-.sidebar li {
-  margin-bottom: 10px;
-}
+  <!-- Start of Markdown -->
+  # Title
+  Your main content goes here.
 
-.sidebar a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #333;
-}
-
-.sidebar a:hover {
-  background-color: #ddd;
-}
-</style>
+  ## Subtitle
+  More content goes here.
+  <!-- End of Markdown -->
+</body>
+</html>
