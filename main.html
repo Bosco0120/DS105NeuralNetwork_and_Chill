@@ -6,37 +6,34 @@
     body {
       background-color: #fff;
       font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      display: flex; /* Add this line to enable flexbox layout */
+      flex-direction: column; /* Add this line to create a column layout */
+      align-items: center; /* Add this line to vertically center the content */
     }
 
     .top-bar {
-      background-color: #f0f0f0;
+      background-color: #f0f0f0; /* Set the top bar color to light grey */
       width: 100%;
       padding: 10px;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
+      display: flex; /* Add this line to enable flexbox layout */
+      justify-content: flex-start; /* Align the content to the left */
+      align-items: center; /* Vertically center the content */
     }
 
-    .top-bar h2 {
-      margin: 0;
-      margin-left: 20px;
+    .top-bar a {
+      text-decoration: none;
       color: #333;
     }
 
     .sidebar {
       width: 200px;
       height: 100%;
-      background-color: #fff;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      margin-top: 20px;
-      margin-left: 0;
+      background-color: #fff; /* Set the sidebar color to white */
+      border: 1px solid #ccc; /* Add a border with grey color */
+      border-radius: 8px; /* Add rounded corners */
+      display: flex; /* Add this line to enable flexbox layout */
+      flex-direction: column; /* Add this line to create a column layout */
+      justify-content: center; /* Add this line to vertically center the options */
     }
 
     .sidebar ul {
@@ -57,7 +54,7 @@
     }
 
     .sidebar a:hover {
-      background-color: #f0f0f0;
+      background-color: #f0f0f0; /* Set the hover color to light grey */
     }
 
     .main-content {
@@ -66,7 +63,6 @@
 
     .main-content h1 {
       font-size: 36px;
-      margin-top: 0;
     }
 
     .main-content h2 {
@@ -78,7 +74,7 @@
       bottom: 0;
       left: 0;
       width: 100%;
-      height: 100px;
+      height: 100px; /* Adjust the height as needed */
       background-image: url(path/to/your/image.jpg);
       background-repeat: no-repeat;
       background-position: center bottom;
@@ -90,7 +86,7 @@
 <body>
   <!-- Start of HTML -->
   <div class="top-bar">
-    <h2><a href="index.html">DS105L</a></h2>
+    <a href="main.html">DS105L</a>
   </div>
 
   <div class="sidebar">
@@ -110,10 +106,3 @@
     <p>Your main content goes here.</p>
 
     <h2>Subtitle</h2>
-    <p>More content goes here.</p>
-  </div>
-  <!-- End of Markdown -->
-
-  <div class="background-image"></div>
-</body>
-</html>
