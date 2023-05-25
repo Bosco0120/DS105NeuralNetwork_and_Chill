@@ -14,11 +14,12 @@ date-meta: 23 May 2023
 
 ## 📝 Project Description
 
-## 📊 Data
+## 📊 <a href="data.html">Data</a>
 
-## 📈 Analysis
 
-## 🖼️ Results
+## 📈 <a href="analysis.html">Analysis</a>
+
+## 🖼️ <a href="results.html">Results</a>
 
 ## 🖋️ Conclusions
 
