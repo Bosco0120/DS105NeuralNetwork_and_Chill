@@ -15,12 +15,15 @@
       width: 200px;
       height: 100%;
       background-color: #f0f0f0; /* Set the sidebar color to light gray */
+      display: flex; /* Add this line to enable flexbox layout */
+      align-items: center; /* Add this line to vertically center the options */
     }
 
     .sidebar ul {
       list-style-type: none;
       padding: 0;
       margin: 0;
+      text-align: center; /* Add this line to center the text */
     }
 
     .sidebar li {
@@ -50,16 +53,30 @@
     .main-content h2 {
       font-size: 24px;
     }
+
+    .background-image {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100px; /* Adjust the height as needed */
+      background-image: url(DS105NeuralNetwork_and_Chill.github.io/re.jpg);
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-size: cover;
+      z-index: -1;
+    }
   </style>
 </head>
 <body>
   <!-- Start of HTML -->
   <div class="sidebar">
     <ul>
-      <li><a href="Webpages/analysis.html">Analysis</a>  
-      <li><a href="Webpages/results.html">Results</a>
-      <li><a href="Webpages/conclusion.html">Conclusion</a>
-      <li><a href="Webpages/reference.html">Reference & Appendix</a>
+      <li><a href="Webpages/data.html">Data</a></li>
+      <li><a href="Webpages/analysis.html">Analysis</a></li>
+      <li><a href="Webpages/results.html">Results</a></li>
+      <li><a href="Webpages/conclusion.html">Conclusion</a></li>
+      <li><a href="Webpages/reference.html">Reference & Appendix</a></li>
     </ul>
   </div>
   <!-- End of HTML -->
@@ -73,25 +90,7 @@
     <p>More content goes here.</p>
   </div>
   <!-- End of Markdown -->
+
+  <div class="background-image"></div>
 </body>
 </html>
-
-<!-- Add the image as a background -->
-<div class="background-image"></div>
-
-<!-- Inline CSS styles -->
-<style>
-.background-image {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100px; /* Adjust the height as needed */
-  background-image: url(DS105NeuralNetwork_and_Chill.github.io/re.jpg);
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: cover;
-  z-index: -1;
-}
-</style>
-
