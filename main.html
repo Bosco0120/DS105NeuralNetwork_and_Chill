@@ -4,7 +4,8 @@
   <title>My Website</title>
   <style>
     body {
-      background-color: #fff; /* Set the background color of the website to white */
+      background-color: #fff;
+      font-family: Arial, sans-serif; /* Set the font family to Arial */
     }
 
     .sidebar {
@@ -16,23 +17,58 @@
       background-color: #D99F34; /* Set the sidebar color to #D99F34 */
     }
 
-    /* Rest of the CSS styles */
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
 
-    /* ... */
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+
+    .sidebar a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .sidebar a:hover {
+      background-color: #ddd;
+    }
+
+    .main-content {
+      margin-left: 220px;
+      padding: 20px;
+    }
+
+    .main-content h1 {
+      font-size: 36px;
+    }
   </style>
 </head>
 <body>
   <!-- Start of HTML -->
   <div class="sidebar">
-    <!-- Sidebar content -->
+    <ul>
+      <li><a href="Webpages/data.html">Data</a></li>
+      <li><a href="Webpages/analysis.html">Analysis</a></li>
+      <li><a href="Webpages/results.html">Results</a></li>
+      <li><a href="Webpages/conclusion.html">Conclusion</a></li>
+      <li><a href="Webpages/reference.html">Reference & Appendix</a></li>
+    </ul>
   </div>
   <!-- End of HTML -->
 
   <!-- Start of Markdown -->
   <div class="main-content">
-    <!-- Main content -->
+    <h1>Title</h1>
+    <p>Your main content goes here.</p>
+
+    <h2>Subtitle</h2>
+    <p>More content goes here.</p>
   </div>
   <!-- End of Markdown -->
 </body>
 </html>
-
