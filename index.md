@@ -17,10 +17,10 @@ date-meta: 23 May 2023
 ## 📊 <a href="Webpages/data.html">Data</a>
 
 
-## 📈 <a href="analysis.html">Analysis</a>
+## 📈 <a href="Webpages/analysis.html">Analysis</a>
 
-## 🖼️ <a href="results.html">Results</a>
+## 🖼️ <a href="Webpages/results.html">Results</a>
 
 ## 🖋️ Conclusions
 
-## 📚 References---
+## 📚 <a href="Webpages/reference.html">Reference & Appendix</a> ---
