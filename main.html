@@ -6,20 +6,21 @@
     body {
       background-color: #fff;
       font-family: Arial, sans-serif;
-      display: flex; /* Add this line to enable flexbox layout */
-      align-items: flex-start; /* Add this line to align items at the top */
+      display: flex;
+      align-items: flex-start;
     }
 
     .sidebar {
       width: 200px;
       height: 100%;
-      background-color: #fff; /* Set the sidebar color to white */
-      border: 1px solid #ccc; /* Add a border with grey color */
-      border-radius: 8px; /* Add rounded corners */
-      display: flex; /* Add this line to enable flexbox layout */
-      flex-direction: column; /* Add this line to create a column layout */
-      justify-content: flex-start; /* Add this line to align options at the top */
-      margin-top: 36px; /* Adjust the margin-top to shift the sidebar down */
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-top: 36px;
+      margin-left: 20px; /* Add this line to shift the sidebar to the right */
     }
 
     .sidebar ul {
@@ -40,7 +41,7 @@
     }
 
     .sidebar a:hover {
-      background-color: #f0f0f0; /* Set the hover color to light grey */
+      background-color: #f0f0f0;
     }
 
     .main-content {
@@ -49,6 +50,7 @@
 
     .main-content h1 {
       font-size: 36px;
+      margin-top: 0; /* Add this line to remove the default margin */
     }
 
     .main-content h2 {
@@ -60,7 +62,7 @@
       bottom: 0;
       left: 0;
       width: 100%;
-      height: 100px; /* Adjust the height as needed */
+      height: 100px;
       background-image: url(path/to/your/image.jpg);
       background-repeat: no-repeat;
       background-position: center bottom;
