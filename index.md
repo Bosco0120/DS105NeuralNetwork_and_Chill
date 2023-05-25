@@ -14,7 +14,7 @@ date-meta: 23 May 2023
 
 ## 📝 Project Description
 
-## 📊 Data <a href="data.html">Extended Webpage</a>
+## 📊 <a href="data.html">Data</a>
 
 
 ## 📈 Analysis
