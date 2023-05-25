@@ -7,7 +7,7 @@
       background-color: #fff;
       font-family: Arial, sans-serif;
       display: flex; /* Add this line to enable flexbox layout */
-      align-items: center; /* Add this line to vertically center the content */
+      align-items: flex-start; /* Add this line to align items at the top */
     }
 
     .sidebar {
@@ -18,7 +18,8 @@
       border-radius: 8px; /* Add rounded corners */
       display: flex; /* Add this line to enable flexbox layout */
       flex-direction: column; /* Add this line to create a column layout */
-      justify-content: center; /* Add this line to vertically center the options */
+      justify-content: flex-start; /* Add this line to align options at the top */
+      margin-top: 36px; /* Adjust the margin-top to shift the sidebar down */
     }
 
     .sidebar ul {
