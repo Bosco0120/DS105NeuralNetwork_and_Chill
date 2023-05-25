@@ -7,35 +7,38 @@
       background-color: #fff;
       font-family: Arial, sans-serif;
       display: flex; /* Add this line to enable flexbox layout */
-      flex-direction: column; /* Add this line to create a column layout */
-      align-items: center; /* Add this line to horizontally center the content */
+      align-items: center; /* Add this line to vertically center the content */
     }
 
-    .topbar {
-      width: 100%;
-      background-color: #f0f0f0; /* Set the top bar color to light gray */
+    .sidebar {
+      width: 200px;
+      height: 100%;
+      background-color: #f0f0f0; /* Set the sidebar color to light gray */
       display: flex; /* Add this line to enable flexbox layout */
-      justify-content: center; /* Add this line to horizontally center the options */
+      flex-direction: column; /* Add this line to create a column layout */
+      justify-content: center; /* Add this line to vertically center the options */
     }
 
-    .topbar ul {
+    .sidebar ul {
       list-style-type: none;
       padding: 0;
       margin: 0;
-      display: flex; /* Add this line to enable flexbox layout */
+      text-align: center; /* Add this line to center the text */
     }
 
-    .topbar li {
-      margin-right: 20px; /* Add some spacing between the options */
+    .sidebar li {
+      margin-bottom: 10px;
     }
 
-    .topbar a {
+    .sidebar a {
+      display: block;
+      padding: 10px;
       text-decoration: none;
       color: #333;
     }
 
-    .topbar a:hover {
-      text-decoration: underline;
+    .sidebar a:hover {
+      background-color: #ddd; /* Set the hover color to a slightly darker gray */
     }
 
     .main-content {
@@ -66,7 +69,7 @@
 </head>
 <body>
   <!-- Start of HTML -->
-  <div class="topbar">
+  <div class="sidebar">
     <ul>
       <li><a href="Webpages/data.html">Data</a></li>
       <li><a href="Webpages/analysis.html">Analysis</a></li>
