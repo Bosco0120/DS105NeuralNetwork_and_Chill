@@ -14,7 +14,7 @@ date-meta: 23 May 2023
 
 ## 📝 Project Description
 
-## 📊 <a href="data.html">Data</a>
+## 📊 <a href="file:///Users/rachellui/Desktop/DS105L/Project/DS105NeuralNetwork_and_Chill.github.io/data.html">Data</a>
 
 
 ## 📈 Analysis
