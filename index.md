@@ -1,6 +1,7 @@
 <html>
+<meta charset="UTF-8">
 <head>
-  <title>My Website</title>
+  <title>Neural Network and Chill</title>
   <style>
     body {
       background-color: #fff;
