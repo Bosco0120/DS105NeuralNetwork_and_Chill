@@ -15,11 +15,7 @@
     }
     
     .top-bar {
-      background-color: #f3c26f; /* Set the top bar color to #f3c26f */
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      /* The remaining styles for the top bar */
+      background-color: #f3c26f;
       width: 100%;
       padding: 20px;
       display: flex;
@@ -45,85 +41,83 @@
       font-size: 30px;
       font-family: Consolas, Arial, sans-serif;
     }
+    
+    .sidebar {
+      width: 200px;
+      height: 100%;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 80px;
+      margin-left: 200px;
+    }
 
-   .sidebar {
-  width: 200px;
-  height: 100%;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 80px;
-  margin-left: 200px;
-}
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
 
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 40; /* This should be changed to margin: 0; */
-}
+    .sidebar li {
+      margin-bottom: 10px;
+    }
 
-.sidebar li {
-  margin-bottom: 10px;
-}
+    .sidebar a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      font-family: Consolas, Arial, sans-serif;
+      color: #333;
+    }
 
-.sidebar a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  font-family: Consolas, Arial, sans-serif;
+    .sidebar a:hover {
+      background-color: #f0f0f0;
+    }
+
+    .main-content {
+  margin-top: 120px;
+  margin-left: 220px; /* Adjust the left margin to match the width of the sidebar */
+  padding: 20px;
+  font-family: "Times New Roman", Arial, sans-serif;
   color: #333;
 }
 
-.sidebar a:hover {
-  background-color: #f0f0f0;
-}
-
-
-    .main-content {
-      padding: 20px;
-    }
 
     .main-content h1 {
       font-size: 36px;
-      font-family: "Times New Roman", Arial, sans-serif;
     }
 
     .main-content h2 {
       font-size: 24px;
-      font-family: "Times New Roman", Arial, sans-serif;
     }
   </style>
 </head>
 <body>
- <!-- Start of HTML -->
-<div class="sidebar">
-  <ul>
-    <li><a href="data.html">Data</a></li>
-    <li><a href="analysis.html">Analysis</a></li>
-    <li><a href="results.html">Results</a></li>
-    <li><a href="conclusion.html">Conclusion</a></li>
-    <li><a href="reference.html">Reference & Appendix</a></li>
-  </ul>
-</div>
-<!-- End of HTML -->
- 
-<!-- Start of HTML -->
-<div class="top-bar">
-  <div class="left-text">
-    <a href="../index.html">&#x1F4BB; DS105L</a>
+  <!-- Start of HTML -->
+  <div class="sidebar">
+    <ul>
+      <li><a href="data.html">Data</a></li>
+      <li><a href="analysis.html">Analysis</a></li>
+      <li><a href="results.html">Results</a></li>
+      <li><a href="conclusion.html">Conclusion</a></li>
+      <li><a href="reference.html">Reference & Appendix</a></li>
+    </ul>
   </div>
-  <div class="right-text">
-    <a href="https://github.com/Bosco0120/DS105NeuralNetwork_and_Chill.github.io" target="_blank">Code</a>
-  </div>
-</div>
-<!-- End of HTML -->
+  <!-- End of HTML -->
 
+  <!-- Start of Markdown -->
 
+  <div class="top-bar">
+    <div class="left-text">
+      <a href="../index.html">&#x1F4BB; DS105L</a>
+    </div>
+    <div class="right-text">
+      <a href="https://github.com/Bosco0120/DS105NeuralNetwork_and_Chill.github.io" target="_blank">Code</a>
+    </div>
   </div>
-  
 
   <div class="main-content">
     <h1>Analysis</h1>
@@ -135,4 +129,3 @@
   <!-- End of Markdown -->
 </body>
 </html>
-</div>
