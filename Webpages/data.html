@@ -5,13 +5,13 @@
   <title>My Website</title>
   <style>
     body {
-      background-image: url("https://drive.google.com/uc?export=view&id=1urTEm-SARUnob3WHpvpxFAJ-IS9eZsdL");
+      background-image: url("https://drive.google.com/uc?export=view&id=1ln1ye4YfCXW-n31ln-DuhkpZ_TRzDjHq");
       background-repeat: no-repeat;
       background-position: center bottom;
       background-size: cover;
       font-family: Arial, sans-serif;
       margin: 0;
-      height: 100%;     
+      min-height: 100vh;      
       display: flex;
       align-items: center;
     }
@@ -53,7 +53,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-top: -200px;
+      margin-top: -800px;
       margin-left: 200px;
     }
 
@@ -80,13 +80,14 @@
     }
 
     .main-content {
-  margin-top: -300px;
-  margin-left: 0px; /* Adjust the left margin to match the width of the sidebar */
   padding: 20px;
-  font-family: "Times New Roman", Arial, sans-serif;
-  color: #333;
-}
+  margin-top: 50px; /* Adjust the margin-top value to your desired spacing */
+  margin-left: 225;
+  margin-right: 200;
+  max-width: 800px; /* Adjust the max-width value as needed */
+  text-align: justify;
 
+}
 
     .main-content h1 {
       font-size: 36px;
@@ -118,16 +119,48 @@
 </div>
   </div>
 
-<div class="main-content">
-    <h1>Data</h1>
-    <p>Rental Market: <br> 
-      For the first step of data collection, we collected 500 real estate rentals listings from 10 of the biggest countries in Spain, and plotted a distribution graph for property sizes (sqm) of properties in the Spanish rental market:
-      </p>
-      <img src="Diagrams and Images/Rental Distribution.png" alt="madrid" style="width: 400px; height: auto;">
-      <p> as you can see,  first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect first step of data collect</p>
-      <h2>Subtitle</h2>
-    <p>More content goes here.</p>
+ <div class="main-content">
+    <h1>&#128200; Data</h1>
+    <p>In this section, we will be highlighting our data sources, data collection process, and the challenges we faced. We will also be providing a brief overview of our exploratory data analysis and data cleaning process.</p>
+
+<h2>&#x1F4CD; Data Sources</h2>
+     <p><strong>Idealista</strong> <br></p>
+     <p> Data Sources
+
+      Our primary dataset was obtained by using the Idealista API. Our objective was to obtain a set of 500 data points per city for rental properties and 1500-3000 data points for sale properties across each of the ten target cities. Below is a screenshot of the Idealista website displaying a property listing. This data can be obtained through the API as well: <br>
+      <img src="test" alt="insert-img" width = '500'>
+    
+<h2>&#x1F4CD; Data Collection</h2>
+    
+    The primary Python library we used to collect the data was requests. In total, we collected 4,521 rental property listings and 16,550 sale property listings from Idealista. The Idealista API enabled us to obtain detailed property data on each listing on their page. The full datasets are available in .csv format on the Github repository. Below is a snippet of the data available to us after using the python requests library to obtain a dataframe through the Idealista API:
+    
+    <p><img src="test" alt="insert-img" width = '500'> </p>
+      
+    </p>  In addition, we also utilised data obtained from Statistia, macrotrends, and Wikipedia through web scraping as part of our preliminary analysis. We employed data extraction techniques using BeautifulSoup to extract additional data from various other sources. This comprehensive process allowed us to obtain a robust and diverse dataset for analysis. Finally, we obtained two shapefiles of the cities of Madrid and Barcelona from the respective municipality websites in order to do some geographic analysis with the Madrid and Barcelona property datasets.
+    
+    
+    
+    <p><strong> Challenges: </strong> <br> </p>
+    
+    When collecting rental property data, we faced a significant challenge in a few of the smaller cities where the availability of rental properties within a reasonable radius was limited. Consequently, our efforts to gather the desired number of rental data points were hindered. Specifically, in Balears (Illes), Vizcaya, Zaragoza, and Las Palmas, we encountered difficulties as there were fewer than 500 data points available. 
+    
+    Another challenge we faced was that we initially had a limit of 1000 requests per month, significantly slowing down our data collection process. We managed to circumvent this issue by requesting for more API keys from Idealista, and strategically splitting up the requests over three months of work.
+    
+    
+    <h2>&#x1F4CD;Exploratory Data Analysis:</h2>  
+
+    <p> </p>As we did not obtain all our data from a singular data source, it is difficult to display all of our data at the same time below. However, below is a summary of the df_madrid_all data frame comprising of 3050 individual data points and 45 columns, providing sales data for properties in the city of Madrid:
+    
+    Relevant columns include the property price, size, price by area, and latitude and longitude.
+    
+    
+    <p><strong> Data Cleaning: </strong> 
+    </p> visual representations of the data, allowing for a clear and concise presentation of our findings. We have mainly used Numpy, Pandas, matplotlib, Geopandas and plotnine to clean and wrangle the data, in order to produce specific outputs and graphs that align with our project objective. Additionally, we have explored the underlying factors contributing to the observed correlations between prices and relevant variables. This understanding will help us offer meaningful suggestions and insights to assist potential investors or renters in making sound decisions.</p>
+
   </div>
 
 </body>
 </html>
+   
+   
+   
