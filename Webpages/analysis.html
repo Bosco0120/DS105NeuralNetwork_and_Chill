@@ -54,7 +54,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-top: -6700px;
+      margin-top: -6800px;
       margin-left: 200px;
     }
 
@@ -171,11 +171,10 @@
   </figure>
 
    </p>Among the 10 cities for which data has been collected from the Idealista API, there is a noticeable variation in the correlation (represented by the red line) between population density, distance, and the Price by Area. A clear trend emerges: the higher the population density, the stronger the relationship between price and distance. In the majority of cities, specifically 9 out of 10, we observe a negative correlation between price and distance from the city center. This suggests that as the distance increases, the price of residential properties tends to decrease. <p>
-    </p>However, Balears (Palma) stands out as an exception as seen in the top left graph in figure 2, with a slightly positive correlation between distance and price. This anomaly could be attributed to the fact that the Balearic islands comprise of many islands, resulting in less developed infrastructure in the city center which causes a lower correlation. Another possible reason could be the unique demand dynamics in Balears. Being a popular tourist destination, the demand for residential properties in Palma might be influenced by factors such as proximity to beaches, amenities, and tourist attractions rather than solely based on distance from the city center. This distinctive demand pattern could lead to a different price relationship compared to other cities where distance from the city center plays a more prominent role. However, without more detailed information, we are unable to draw any definitive conclusions about the data in Palma. Nevertheless, this insight provides valuable information for understanding the pricing dynamics across different cities, emphasizing the influence of population density and geographical factors on residential property prices.</p>
+    </p>However, Balears (Palma) stands out as an exception as seen in the the below graph. The rental properties in Palma display a slightly positive correlation between distance and price. This anomaly could be attributed to the fact that the Balears comprise of many islands, resulting in less developed infrastructure in the city center which causes a lower correlation. Another possible reason could be the unique demand dynamics in Balears. Being a popular tourist destination, the demand for residential properties in Palma might be influenced by factors such as proximity to beaches, amenities, and tourist attractions rather than solely based on distance from the city center. This distinctive demand pattern could lead to a different price relationship compared to other cities where distance from the city center plays a more prominent role. However, without more detailed information, we are unable to draw any definitive conclusions about the data in Palma. Nevertheless, this insight provides valuable information for understanding the pricing dynamics across different cities, emphasizing the influence of population density and geographical factors on residential property prices.</p>
    <div style= "text-align: center;"> 
       <img src="../Diagrams and Images/p-balears.png" width = "500" />
     </div>
-<p> </p>
 
 <h3>&#x1F4DD; Other Factors</h3>
 
@@ -217,8 +216,8 @@ The city with the second highest median price is Madrid, which is a larger city 
 Madrid has a rich history and culture, with many museums, galleries, and historical landmarks. This can make certain areas of the city more desirable, which can drive up property prices.
 Afterall, Madrid is a popular destination for international buyers, particularly those from Latin America. This can create a higher demand for properties in certain areas of the city, which can drive up prices. This can also explain the large number of upper outliers above the whiskers for both Madrid and Palma, with the existence of large luxury homes for the wealthy to purchase <p>
 
- <h2>&#x1F4CD; Sales Property Heatmaps</h2>
-     <p><strong>District-level analysis of properties for sale in Madrid and Barcelona</strong> <br></p>
+ <h2>&#x1F4CD; Property Heatmaps</h2>
+     <p><strong>District-level analysis of properties in Madrid and Barcelona</strong> <br></p>
      <p>In this section, we focused only on properties within the districts of Madrid and Barcelona. According to government organisation, Madrid has 21 districts while Barcelona has 9 districts. We obtained the shapefiles from the muncipality websites of the cities, and ran a spatial join between the shapefile and the idealista datasets by utilising the Geopandas library. This was possible because each individual property listing on idealista provides exact longitude and latitude of the property. In total, we managed to produce four heat maps indicating the median price and median price by area for the districts in Barcelona and Madrid. </p>
         <div style="display: flex;">
       <img src="../Diagrams and Images/madrid_heatmap1.png" style="width: 50%;" />
