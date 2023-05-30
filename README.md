@@ -1,16 +1,14 @@
 # DS105L_Neural_Network_and_Chill
-Team Members: Bosco, Rachel and Syaiful
+Team Members: Bosco Lee, Rachel Lui and Syaiful Iylia
 
 ## Background and introduction
 For our DS105 Project, our group decided to use study property data across ten cities in Spain, utilising the API from Idealista, a sales/rental online platform for Spanish properties. We have performed property analysis with sales data from Idealista, which is a slaes and rental plaform focusing on properties of Spain.
-In this project, we have conducted Sales/Rental Market Analysis on 10 cities with in Spain
-We have spotted some patterns when playing with the data, which is 
 
 ### Replicating the project
 In order to replicate the project and final results, please access the source code under the 'Data Collection Code', 'Rental Analysis' and 'Sales Analysis' folders. The datasets that we obtained from Idealista are in the 'Data' folder.
 
 ### To Note:
-The rental and sales data collection request files require API access from Idealista. You request access at https://developers.idealista.com/access-request. Do note that replication may not result in identical datasets due to the changing nature of property markets.
+The rental and sales data collection request files require API access from Idealista. You can request access at https://developers.idealista.com/access-request. Do note that replication may not result in identical datasets due to the rapidly changing nature of property markets.
 
 ### Contributions (roughly)
 Data Collection: Syaiful (45%), Rachel (35%), Bosco (20%)
