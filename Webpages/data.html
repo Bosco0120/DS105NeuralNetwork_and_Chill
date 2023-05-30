@@ -53,7 +53,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-top: -800px;
+      margin-top: -3000px;
       margin-left: 200px;
     }
 
@@ -124,9 +124,7 @@
 
 <h2>&#x1F4CD; Data Sources</h2>
      <p><strong>Idealista</strong> <br></p>
-     <p> Data Sources
-
-      Our primary dataset was obtained by using the Idealista API. Our objective was to obtain a set of 500 data points per city for rental properties and 1500-3000 data points for sale properties across each of the ten target cities. Below is a screenshot of the Idealista website displaying a property listing. This data can be obtained through the API as well: <br>
+     <p>Our primary dataset was obtained by using the Idealista API. Our objective was to obtain a set of 500 data points per city for rental properties and 1500-3000 data points for sale properties across each of the ten target cities. Below is a screenshot of the Idealista website displaying a property listing. This data can be obtained through the API as well: <br>
       <img src="../Diagrams and Images/idealistalisting.png" alt="insert-img" width = '800'>
     
 <h2>&#x1F4CD; Data Collection</h2>
@@ -156,8 +154,14 @@
     
     <p><strong> Data Cleaning: </strong> 
     </p> In order to provide visual representations of the data allowing for a clear and concise presentation of our findings, we first needed to clean the dataframes. Fortunately, not much work was needed as the API was clear and straightforward, but we still needed to remove duplicates, as well as columns in the datasets uneccesary to the data.</p>
+    </p> For the sales data, we removed a majority of the columns as they were not relevant to our data analysis. We also removed duplicates, as seen in the image below:</p>
+    <p><img src="../Diagrams and Images/sales_data_cleaning.png" alt="insert-img" width = '800'> </p>
+    </p> Additionally, when loading the shapefiles for the geographical analysis, we did encounter initial challenges performing the spatial join between the map shapefiles and the dataframes, and realised that we had to convert the shapefiles to the appropriate CRS in order to match the format for the latitude and longitude in the idealista dataframes. This is because there are many different coordinate reference systems employed by different countries and organisations, so we could only perform a join function on the map shapefile and the Idealista dataframe after we converted them to the same CRS format. For the rental data, we had to convert some of the data obtained from webscraping into regex, as well as remove unneccesary values in the data:
+    <p><img src="../Diagrams and Images/rental_clean.jpeg" alt="insert-img" width = '800'> </p>
+    <p> Following the data cleaning, we were left with a large but organised number of dataframes to work with, and our analysis of our data is in the following page.</p>
 
-  </div>
+
+</div>
 
 </body>
 </html>
